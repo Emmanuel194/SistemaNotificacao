@@ -1,14 +1,16 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #e5e5e5;
+  background-color: #F4F7FF;
+  
 }
 
 .box {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 570px;
+  gap: 60px;
 }
 
 .notifications{
@@ -37,21 +39,42 @@ body {
 }
 
 
-.notifications h2 {
+.requests h2 {
   text-align: center;
   margin-bottom: 10px;
 }
 
-.notifications buttonNotifican {
-  display: block;
-  margin: 0 auto;
+.notifications h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  
+}
+h2{
+  border-bottom: 2px solid #231d41;
+}
+
+.centralizando button {
+  margin-top: 80px;
+  height: 55px;
+  width: 370px;
+  font-size: 20px;
+  cursor: pointer;
+  
+}
+
+.buttonRequests{
+  margin-top: 80px;
+  height: 55px;
+  width: 370px;
+  font-size: 20px;
+  cursor: pointer;
+  
 }
 
 
 
-
 .header {
-  background-color: #e5e5e5;
+  background-color: #F4F7FF;
   color: white;
   padding: 10px;
   display: flex;
@@ -69,3 +92,4 @@ body {
   color: black;
   text-decoration: none;
 }
+
