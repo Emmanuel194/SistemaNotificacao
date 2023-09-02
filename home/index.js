@@ -1,4 +1,4 @@
-const email = document.querySelector(".user");
+const email = document.querySelector(".user"); // tag para selecionar a class email no input
 const password = document.querySelector(".password");
 const button = document.querySelector(".button");
 
