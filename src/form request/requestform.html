@@ -11,7 +11,17 @@
   <div class="containerMain">
      <h1>Formulario solicitação de manutenção</h1>
       <form action="">
-        <p>Tipo de manutenção</p>
+        <div class="tipos">
+        <h3>Selecione o tipo de manutenção: </h3>
+        <input type="search" list="Tipos Manutenção">
+        <datalist id="Tipos Manutenção" style="display:hidden;">
+          <option value="Corretiva">
+          <option value="Preventina">
+          <option value="Móvel Planjeado">
+          <option value="Estrutura Predial">
+          <option value="Equipamentos">
+        </datalist>
+      </div>
       </form>
   </div>
 
