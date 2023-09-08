@@ -49,9 +49,7 @@ body {
   margin-bottom: 10px;
   
 }
-h2{
-  border-bottom: 2px solid #231d41;
-}
+
 
 .centralizando button {
   margin-top: 80px;
@@ -71,7 +69,13 @@ h2{
   
 }
 
+.animeRequest img{
+  height: 75px; 
+}
 
+.manutencao img {
+  height: 75px;
+}
 
 .header {
   background-color: #F4F7FF;
