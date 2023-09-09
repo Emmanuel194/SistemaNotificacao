@@ -23,6 +23,7 @@ body {
   border-radius: 10px;
   align-items: center;
   text-align: center;
+  flex-direction: column;
 }
 
 .requests{
@@ -35,7 +36,7 @@ body {
   border-radius: 10px;
   align-items: center;
   text-align: center;
-  
+  flex-direction: column;
 }
 
 
@@ -60,17 +61,43 @@ body {
   
 }
 
-.buttonRequests{
-  margin-top: 80px;
+.buttonNotifican{
+  margin-top: 120px;
   height: 55px;
   width: 370px;
   font-size: 20px;
   cursor: pointer;
+  border-radius: 20px;
+  border: none;
+  
+}
+.manutencao{
+  margin-top: 90px;
+}
+
+.animeRequest{
+  margin-top: 90px;
+}
+
+
+.buttonRequests{
+  margin-top: 120px;
+  height: 55px;
+  width: 370px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  border: none;
+}
+
+
+.buttonRequests hover {
+  background-color: #3c6267;
   
 }
 
 .animeRequest img{
-  height: 75px; 
+  height: 75px;
 }
 
 .manutencao img {
