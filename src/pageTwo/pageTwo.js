@@ -1,6 +1,6 @@
 import React from 'react'
 import Lottie from 'react-lottie';
-import animationData from './anime.json'
+import animationData from './lottie/animation'
 
 
 
@@ -8,7 +8,7 @@ import animationData from './anime.json'
 export default class animationData extends React.Component {
  
   render() {
-    const animation = {
+    const animationData = {
       display: 'block', 
       margin: '10px auto'
     };
