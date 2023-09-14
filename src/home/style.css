@@ -23,6 +23,9 @@
   border-radius: 1px none;
   background-color: white;
   height: 370px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
 
 .minContainer {
@@ -34,6 +37,9 @@
   width: 300px;
   background-color: #F4F7FF;
   border: none;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
 
 .password{
@@ -41,6 +47,9 @@
   width: 300px;
   background-color: #F4F7FF;
   border: none;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
 
 .button{
@@ -58,6 +67,7 @@ form{
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 
 }
 input{

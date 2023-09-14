@@ -13,7 +13,9 @@ body {
   gap: 60px;
 }
 
-.notifications{
+
+
+.services{
   display: flex;
   width: 450px;
   height: 450px;
@@ -24,21 +26,12 @@ body {
   align-items: center;
   text-align: center;
   flex-direction: column;
-}
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  padding-bottom: 10px;
 
-.requests{
-  display: flex;
-  width: 450px;
-  height: 450px;
-  margin: 0 10px;
-  border: 1px;
-  background-color: white;
-  border-radius: 10px;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
 }
-
 
 .requests h2 {
   text-align: center;
@@ -53,7 +46,6 @@ body {
 
 
 .centralizando button {
-  margin-top: 80px;
   height: 55px;
   width: 370px;
   font-size: 20px;
@@ -62,38 +54,41 @@ body {
 }
 
 .buttonNotifican{
-  margin-top: 120px;
   height: 55px;
   width: 370px;
   font-size: 20px;
   cursor: pointer;
   border-radius: 20px;
   border: none;
-  
-}
-.manutencao{
-  margin-top: 90px;
+  background-color: #d9dadd;
 }
 
-.animeRequest{
-  margin-top: 90px;
+.buttonNotifican:hover {
+  background-color: #3c6267;
+  color:white;
+  transform: scale(1.1);
+  transition: all 0.5s;
 }
+
+
 
 
 .buttonRequests{
-  margin-top: 120px;
   height: 55px;
   width: 370px;
   font-size: 20px;
   cursor: pointer;
   border-radius: 20px;
   border: none;
+  background-color: #d9dadd;
 }
 
 
-.buttonRequests hover {
+.buttonRequests:hover {
   background-color: #3c6267;
+  color:white;
   transform: scale(1.1);
+  transition: all 0.5s;
 }
 
 .animeRequest img{
