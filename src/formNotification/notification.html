@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Ocorrência</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Formulário de Ocorrência</h2>
+        <form>
+            <div class="form-group">
+                <label for="dataOcorrencia">Data da Ocorrência:</label>
+                <input type="date" class="form-control" id="dataOcorrencia">
+            </div>
+            <div class="form-group">
+                <label for="localProcesso">PROCESSO (Local onde ocorreu o Evento):</label>
+                <input type="text" class="form-control" id="localProcesso">
+            </div>
+            <div class="form-group">
+                <label for="processoSetor">Processo/Setor que gerou o Evento:</label>
+                <input type="text" class="form-control" id="processoSetor">
+            </div>
+            <div class="form-group">
+                <label for="descricaoEvento">DESCRIÇÃO DO EVENTO:</label>
+                <textarea class="form-control" id="descricaoEvento" rows="4"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="acaoImediata">DESCRIÇÃO DA AÇÃO IMEDIATA REALIZADA:</label>
+                <textarea class="form-control" id="acaoImediata" rows="4"></textarea>
+            </div>
+            <div class="form-group">
+                <label>HOUVE DANO AO PACIENTE?</label>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" name="danoPaciente" value="NÃO" id="naoDano">
+                    <label class="form-check-label" for="naoDano">NÃO</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" name="danoPaciente" value="SIM" id="simDano">
+                    <label class="form-check-label" for="simDano">SIM</label>
+                </div>
+                <div class="form-group" id="descricaoDano">
+                    <label for="descricaoDanoPaciente">Descrição do Dano ao Paciente:</label>
+                    <textarea class="form-control" id="descricaoDanoPaciente" rows="4"></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="tipoVigilancia">Selecione o tipo de Vigilância:</label>
+                <select class="form-control" id="tipoVigilancia">
+                    <option value="FARMACOVIGILÂNCIA">FARMACOVIGILÂNCIA</option>
+                    <option value="HEMOVIGILÂNCIA">HEMOVIGILÂNCIA</option>
+                    <option value="TECNOVIGILÂNCIA">TECNOVIGILÂNCIA</option>
+                    <option value="OUTROS">OUTROS</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="outrasObservacoes">OUTRAS OBSERVAÇÕES:</label>
+                <textarea class="form-control" id="outrasObservacoes" rows="4"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="dataRegistro">Data do Registro:</label>
+                <input type="date" class="form-control" id="dataRegistro">
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+
+  
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

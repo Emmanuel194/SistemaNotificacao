@@ -4,40 +4,51 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./request.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <title>Request</title>
 </head>
 <body>
   
-  <div class="containerMain">
-     <h1>Formulario solicitação de manutenção</h1>
-      <form action="">
-        <div class="tipos">
-        <h3>Selecione o tipo de manutenção: </h3>
-        <input type="search" list="Tipos Manutenção">
-        <datalist id="Tipos Manutenção" style="display:hidden;">
-          <option value="Corretiva">
-          <option value="Preventina">
-          <option value="Móvel Planjeado">
-          <option value="Estrutura Predial">
-          <option value="Equipamentos">
-        </datalist>
-      </div>
-      <div class="">
-        <input id="setor" type="text">
-        <input id="solicitante" type="text">
-      </div>
-      <div class="">
-        <input id="equipamento" type="text">
-        <input type="date" name="data" id="">
-      </div>
-      <div class="area">
-        <textarea>
-          
-        </textarea>
-      </div>
-      </form>
-  </div>
+  <div class="container">
+    <h2>Formulário de Solicitação</h2>
+    <form>
+        <div class="form-group">
+            <label for="tipoManutencao">Tipo de Manutenção:</label>
+            <select class="form-control" id="selecaoSetor">
+                <option>Corretivo</option>
+                <option>Preventivo</option>
+                <option>Móvel Planejado</option>
+                <option>Estrutura predial</option>
+                <option>Equipamento</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="setor">Setor:</label>
+            <input type="text" class="form-control" id="setor" placeholder="Informe o setor">
+        </div>
+        <div class="form-group">
+            <label for="solicitante">Solicitante:</label>
+            <input type="text" class="form-control" id="solicitante" placeholder="Informe o solicitante">
+        </div>
+        <div class="form-group">
+            <label for="equipamentos">Equipamentos:</label>
+            <input type="text" class="form-control" id="equipamentos" placeholder="Informe os equipamentos">
+        </div>
+        <div class="form-group">
+            <label for="data">Data:</label>
+            <input type="date" class="form-control" id="data">
+        </div>
+        <div class="form-group">
+            <label for="descricaoProblema">Descrição do Problema:</label>
+            <textarea class="form-control" id="descricaoProblema" rows="4" placeholder="Descreva o problema"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</div>
 
-  <script src="./request.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
