@@ -10,3 +10,9 @@ function enviando () {  // function de requisição para quando cliar no button 
 }
 
 
+//----------------------------------------------------------------
+
+function validateEmail (email) {
+  const rex = /\S+@\S+\.\S+/;
+  return rex.test(email);
+}
